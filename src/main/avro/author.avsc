@@ -1,0 +1,35 @@
+{
+    "namespace": "me.dalsat.avro",
+    "type": "record",
+    "name": "Author",
+    "fields": [
+        {
+            "name": "user_name",
+            "type": "string",
+            "doc": "Username of the author"
+        },
+        {
+            "name": "display_name",
+            "type": "string",
+            "doc": "Extended name of the author, for display purposes"
+        },
+        {
+            "name": "registration_date",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            },
+            "doc": "Date when the author registrered"
+        },
+        {
+            "name": "City",
+            "type": [
+                "null",
+                "string"
+            ],
+            "default": null,
+            "doc": "City of the author"
+        }
+    ],
+    "doc": "Schema for an author"
+}
