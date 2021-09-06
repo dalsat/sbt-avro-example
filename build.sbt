@@ -5,7 +5,7 @@ lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization := "me.dalsat",
-      scalaVersion := "2.13.5"
+      scalaVersion := "2.13.6"
     )),
     name := "avro-models",
     avroFieldVisibility := "private",
