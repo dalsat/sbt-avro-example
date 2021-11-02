@@ -1,7 +1,9 @@
 target/
 .DS_Store
-.bsp
-.idea
+.bsp/
+.idea/
+.metals/
+.vscode/
 
 *.class
 *.log
