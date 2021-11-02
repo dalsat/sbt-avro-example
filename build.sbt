@@ -13,4 +13,4 @@ lazy val root = (project in file(".")).
 
 
 // Version must match that of `avro-compiler` in `project/plugins/sbt`
-libraryDependencies += "org.apache.avro" % "avro" % "1.10.2"
+libraryDependencies += "org.apache.avro" % "avro" % "1.11.0"
